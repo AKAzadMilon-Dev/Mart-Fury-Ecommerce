@@ -15,3 +15,9 @@
   justify-content: space-between;
 }
 /* Header Top Part End */
+
+/* Banner Part Start */
+.bannerimg{
+  height: 550px;
+}
+/* Banner Part End */

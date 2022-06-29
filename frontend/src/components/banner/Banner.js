@@ -4,11 +4,11 @@ import { Carousel } from 'react-bootstrap';
 const Banner = () => {
   return (
     <div>
-        <Carousel fade >
-            <Carousel.Item >
+        <Carousel fade className='bannerimg'>
+            <Carousel.Item className='bannerimg'>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=First slide&bg=373940"
+                src="/assets/images/banner-1.jpg"
                 alt="First slide"
                 />
                 <Carousel.Caption >
@@ -16,10 +16,10 @@ const Banner = () => {
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className='bannerimg'>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=Second slide&bg=282c34"
+                src="/assets/images/banner-2.jpg"
                 alt="Second slide"
                 />
 
@@ -28,10 +28,10 @@ const Banner = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className='bannerimg'>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=Third slide&bg=20232a"
+                src="/assets/images/banner-3.jpg"
                 alt="Third slide"
                 />
 
